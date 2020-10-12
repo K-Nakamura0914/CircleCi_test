@@ -6,7 +6,7 @@ jobs:
       - image: circleci/mariadb:10.4
 
     environment:
-      - DB_CONNECTION: circleci_testing
+      - DB_CONNECTION: circle_test
       
     working_directory: ~/server
 
