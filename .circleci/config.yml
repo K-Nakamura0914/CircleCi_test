@@ -38,4 +38,4 @@ jobs:
 
       - run:
           name: Run PHPUnit
-          command: vendor/bin/phpunit
+          command: server/vendor/bin/phpunit
